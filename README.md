@@ -1,16 +1,12 @@
 MyTemanNgobrol
-AI-Powered Coding Companion yang berjalan secara lokal menggunakan Ollama.
+Deskripsi singkat AI coding companion ini (apa fungsinya?).
 
-Fitur:
-Local AI Chat: Ngobrol langsung sama model LLM (Llama3) tanpa kirim data ke cloud.
+Cara Install
+Clone repo ini: git clone [https://github.com/hijrahprtm/MyTemanNgobrol.git](https://github.com/hijrahprtm/MyTemanNgobrol.git)
 
-Persona-Driven: Didesain dengan kepribadian "Teman Ngoding" yang santai dan asik.
+Buat venv: python -m venv venv
 
-Self-Code Review: Bisa membaca file .py dan memberikan saran refactoring secara real-time.
+Install dependencies: pip install -r requirements.txt
 
-Cara Pakai:
-Pastikan Ollama sudah running (ollama serve).
-
-Jalankan python main.py.
-
-Ketik baca: namafile.py untuk mulai sesi code review.
+Cara Jalankan
+python main.py
